@@ -1,0 +1,894 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Audrey Malfoy CDUI</title>
+    <!-- LINK TO CSS -->
+    <link rel="stylesheet" href="assets/css/styles.css" />
+    <link rel="stylesheet" href="assets/css/media-queries.css" />
+    <!-- Link to FAVICON -->
+    <link rel="icon" href="assets/img/FavIcons/faviconCV.png" />
+    <!-- GOOGLE FONTS -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet" />
+
+    <body>
+
+        <section id="versionNonDispo">
+            <p id="noDispo">Ce site web n'est pas disponible pour votre smartphone ou montre connectée. Vous pouvez y accéder si votre écran est de 576px minimum.<br><br>N'hésitez pas à me rejoindre sur les réseaux sociaux ou à télécharger mon cv.</p>
+            <div id="mesRS">
+                <section class="lesRS">
+                    <a href="https://www.instagram.com/anasiris_design/" target="_blank"><img src="assets/img/Icons8/icon8-instagram.png" alt="Instagram" />
+                        <p id="pseudoIG">@Anasiris_Design</p>
+                    </a>
+                </section>
+                <section class="lesRS">
+                    <a href="https://twitter.com/AnasirisDesign/" target="_blank"><img src="assets/img/Icons8/icon8-twitter.png" alt="Twitter" />
+                        <p id="pseudoTWT">@AnasirisDesign</p>
+                    </a>
+                </section>
+                <section class="lesRS">
+                    <a href="https://www.linkedin.com/in/audrey-malfoy-5093511b5/" target="_blank"><img src="assets/img/Icons8/icon8-linkedin.png" alt="Linkedin" />
+                        <p id="pseudoLKN">Audrey Malfoy</p>
+                    </a>
+                </section>
+                <section class="lesRS">
+                    <a href="https://www.facebook.com/anasirisdesign/" target="_blank"><img src="assets/img/Icons8/icon8-facebook.png" alt="Facebook" />
+                        <p id="pseudoFB">@AnasirisDesign</p>
+                    </a>
+                </section>
+
+                <section>
+                    <div id="leBtnDwnld">
+                        <p>
+                            <a href="assets/files/CurriculumVitae-AudreyMalfoy.pdf" download="Curriculum Vitae - Audrey Malfoy.pdf" target="_blank">Télécharger mon CV</a>
+                        </p>
+                    </div>
+                    <br>
+                    <p><a href="cv.html" id="seecvmobiledevice" target="_blank">Ou le lire dans un autre onglet</a></p>
+                </section>
+            </div>
+        </section>
+        <section id="versionDispo">
+            <!-- HEADER-->
+            <header id="backgroundTop" class="blackCover">
+                <!-- SWITCH DAY/NIGHT -->
+                <section id="switchonoff">
+
+                    <input type="checkbox" id="toggle_checkbox" onclick="myDarkMode()" checked>
+
+                    <label for="toggle_checkbox">
+                <div id="star">
+                    <div class="star" id="star-1">★</div>
+                    <div class="star" id="star-2">★</div>
+                </div>
+                <div id="moon"></div>
+            </label>
+                    <div id="txtSwitch">Testez le mode nuit!</div>
+                </section>
+
+                </div>
+
+                <a href="index.html"><img src="assets/img/Logo_Head_Navbar/Logo CV MALFOY Blanc.png" id="logoRect" alt="Logo Audrey Malfoy Design"></a>
+                <h1>Bienvenue</h1>
+                <hr class="separatorHeader">
+                <p class="textHeader">Laissez-vous <br> <span class="txt-rotate" data-period="200" data-rotate='[ "submerger par mon univers", "porter par ma créativité", "guider par votre curiosité", "tenter de me découvrir", "faire séduire par mes compétences" ]'>
+            </span></p>
+            </header>
+
+            <section id="navigationMenu">
+                <nav id="menu">
+                    <div id="listItems">
+                        <a class="itemsNav" id="colorItemOne" href="#biography" onClick="scrollToSmoothly(document.querySelector('#biography').offsetTop, 1000)">A propos</a>
+                        <a class="itemsNav" id="colorItemTwo" href="#skills" onClick="scrollToSmoothly(document.querySelector('#skills').offsetTop, 1000)">Compétences</a>
+                        <a class="itemsNav" id="colorItemThree" href="#experience" onClick="scrollToSmoothly(document.querySelector('#experience').offsetTop, 1000)">Expériences</a>
+                        <a class="itemsNav" id="colorItemFour" href="#portfolio" onClick="scrollToSmoothly(document.querySelector('#portfolio').offsetTop, 1000)">Portfolio</a>
+                    </div>
+                </nav>
+            </section>
+
+            <!-- START CONTENTS & SECTIONS -->
+            <!-- BIOGRAPHY -->
+            <section id="biography" class="biographysection">
+                <div class="parentBioImg">
+                    <img class="enfantBioImg" src="assets/img/Biographie/me-Biography1.png" alt="Photographie d'Audrey Malfoy" onmouseover="javascript:this.src='assets/img/Biographie/me-Biography2.png';" onmouseout="javascript:this.src='assets/img/Biographie/me-Biography1.png';">
+                </div>
+
+                <div class="parentBioTxt">
+
+                    <h2 id="titleSectAbout">A propos</h2>
+                    <p class="enfantBioTxt">Animée par le besoin constant d'apprendre chaque jour depuis ma plus tendre enfance, ma curiosité me permet de toucher à tout et d'obtenir sans cesse de nouvelles compétences.</p>
+
+                    <!-- VERSION PC INFORMATIONS -->
+                    <section id="bioCoordonnees">
+                        <div class="enfantBioCoordonnees" id="colorBarsOne">
+                            <p><span class="titleCoordonnees" id="colorTxtOne">Âge :</span> <span class="infoCoordonnees" id="ageInfo">22 ans</span></p>
+                            <p><span class="titleCoordonnees" id="colorTxtTwo">Lieu :</span> <span class="infoCoordonnees" id="locationInfo">Carlepont</span></p>
+                        </div>
+                        <div class="enfantBioCoordonnees" id="colorBarsTwo">
+                            <p><span class="titleCoordonnees" id="colorTxtThree">Téléphone :</span> <span class="infoCoordonnees" id="telInfo">06 34 17 01
+                            88</span>
+                            </p>
+                            <p><span class="titleCoordonnees" id="colorTxtFour">E-mail :</span> <span class="infoCoordonnees" id="mailInfo">AudreyMalfoy60@outlook.com</span></p>
+                        </div>
+                    </section>
+
+                    <!-- VERSION MOBILE INFORMATIONS -->
+                    <section id="bioCoordonnéesMobile">
+                        <div id="coordonneesBlocMobile">
+                            <p><span class="titleCoordonneesMobile">Âge :</span><br><span class="infoCoordonneesMobile">22 ans</span></p>
+                            <p><span class="titleCoordonneesMobile">Lieu :</span><br><span class="infoCoordonneesMobile">Carlepont</span></p>
+                            <p><span class="titleCoordonneesMobile">Téléphone :</span><br><span class="infoCoordonneesMobile">06 34 17 01 88</span>
+                            </p>
+                            <p><span class="titleCoordonneesMobile">E-mail :</span><br><span class="infoCoordonneesMobile">AudreyMalfoy60@outlook.com</span></p>
+                        </div>
+                    </section>
+
+                    <div id="bioButton">
+                        <p>
+                            <a href="assets/files/CurriculumVitae-AudreyMalfoy.pdf" download="Curriculum Vitae - Audrey Malfoy.pdf" target="_blank">Télécharger mon CV</a>
+                        </p>
+                    </div>
+                    <p id="linktocv"><a href="cv.html" id="seemycv" target="_blank">Ou le lire dans un autre onglet</a></p>
+                </div>
+            </section>
+
+            <!-- SKILLS -->
+            <section id="skills" class="skillssection">
+                <div class="parentSkillsTxt">
+                    <h2 id="titleSectSkills">Compétences</h2>
+                    <p class="enfantSkillsTxt">Je suis capable de :</p>
+                    <ul class="listSkillsTxt">
+                        <li>Gérer un projet et une équipe ;</li>
+                        <li>D'élaborer un cahier des charges, respectant les attentes du client qui sont possibles ;</li>
+                        <li>Mise en pratique du SEO, SEA ;</li>
+                        <li>Création de charte graphique ;</li>
+                        <li>Administrer un site web ;</li>
+                        <li>Publier un site sur un serveur web.</li>
+                    </ul>
+                </div>
+                <div class="parentSkillsBars">
+                    <h3 class="titleSkills">Langages Front-End</h3>
+                    <section id="htmlSection">
+                        <p id="skillOne" class="nameSkill">HTML</p>
+                        <div id="containerHTML" class="containerSkill">
+                            <div id="htmlskill" class="skill html">100%</div>
+                        </div>
+                    </section>
+                    <section id="cssSection">
+                        <p id="skillTwo" class="nameSkill">CSS</p>
+                        <div id="containerCSS" class="containerSkill">
+                            <div id="cssskill" class="skill css">80%</div>
+                        </div>
+                    </section>
+                    <section id="jsSection">
+                        <p id="skillThree" class="nameSkill">JS</p>
+                        <div id="containerJS" class="containerSkill">
+                            <div id="jsskill" class="skill js">50%</div>
+                        </div>
+                    </section>
+                    <h3 class="titleSkills">Framework CSS</h3>
+                    <section id="bootstrapSection">
+                        <p id="skillFour" class="nameSkill">BOOTSTRAP</p>
+                        <div id="containerBS" class="containerSkill">
+                            <div id="bootstrapskill" class="skill bootstrap">80%</div>
+                        </div>
+                    </section>
+                    <section id="tailwindSection">
+                        <p id="skillFive" class="nameSkill">TAILWIND</p>
+                        <div id="containerTW" class="containerSkill">
+                            <div id="tailwindskill" class="skill tailwind">80%</div>
+                        </div>
+                    </section>
+                    <h3 class="titleSkills">CMS</h3>
+                    <section id="wordpressSection">
+                        <p id="skillSix" class="nameSkill">WORDPRESS</p>
+                        <div id="containerWP" class="containerSkill">
+                            <div id="wordpressskill" class="skill wordpress">80%</div>
+                        </div>
+                    </section>
+                    <section id="weeblySection">
+                        <p id="skillSeven" class="nameSkill">WEEBLY</p>
+                        <div id="containerWEEBLY" class="containerSkill">
+                            <div id="weeblyskill" class="skill weebly">80%</div>
+                        </div>
+                    </section>
+                </div>
+            </section>
+
+            <!-- CAROUSEL -->
+            <section id="carousel" class="carouselsection">
+                <div class="caroussel_diapo">
+                    <input checked id="carou_un" name="rotation" type="radio" onclick="oneSee()">
+                    <label for="carou_un"></label>
+                    <input id="carou_deux" name="rotation" type="radio" onclick="twoSee()">
+                    <label for="carou_deux"></label>
+                    <input id="carou_trois" name="rotation" type="radio" onclick="threeSee()">
+                    <label for="carou_trois"></label>
+                    <input id="carou_quatre" name="rotation" type="radio" onclick="fourSee()">
+                    <label for="carou_quatre"></label>
+                    <input id="carou_cinq" name="rotation" type="radio" onclick="fiveSee()">
+                    <label for="carou_cinq"></label>
+                    <input id="carou_six" name="rotation" type="radio" onclick="sixSee()">
+                    <label for="carou_six"></label>
+                    <input id="carou_sept" name="rotation" type="radio" onclick="sevenSee()">
+                    <label for="carou_sept"></label>
+                    <input id="carou_huit" name="rotation" type="radio" onclick="eightSee()">
+                    <label for="carou_huit"></label>
+                    <div class="contenu_carou">
+                        <div class="caroussel">
+                            <img src="assets/img/Skills/indesign.png" alt="Adobe InDesign">
+                            <img src="assets/img/Skills/premiere.png" alt="Adobe Premiere">
+                            <img src="assets/img/Skills/illustrator.png" alt="Adobe Illustrator">
+                            <img src="assets/img/Skills/photoshop.png" alt="Adobe Photoshop">
+                            <img src="assets/img/Skills/xd.png" alt="Adobe XD">
+                            <img src="assets/img/Skills/aftereffects.png" alt="Adobe After Effects">
+                            <img src="assets/img/Skills/photofiltre.png" alt="Photofiltre">
+                            <img src="assets/img/Skills/visualcode.png" alt="Visual Code Studio">
+                        </div>
+                        <section class="legends">
+                            <p id="legendOne">Adobe - InDesign</p>
+                            <p id="legendTwo">Adobe - Premiere Pro</p>
+                            <p id="legendThree">Adobe - Illustrator</p>
+                            <p id="legendFour">Adobe - Photoshop</p>
+                            <p id="legendFive">Adobe - XD</p>
+                            <p id="legendSix">Adobe - After Effects</p>
+                            <p id="legendSeven">Photofiltre</p>
+                            <p id="legendEight">Visual Code Studio</p>
+                        </section>
+                    </div>
+                </div>
+            </section>
+
+            <section id="gallery">
+                <div class="parent">
+                    <div class="div1">
+                        <p id="titleGalOne" class="titleGallery">Outils de communication lors des projets</p>
+                    </div>
+                    <div class="div2">
+                    </div>
+                    <div class="div3">
+                        <img src="assets/img/Galerie/trello.png" alt="Trello" class="galleryImg">
+                        <a href="http://www.trello.com/" target="_blank">
+                            <p id="trello" class="legendGallery rightTrello">Trello</p>
+                        </a>
+                    </div>
+                    <div class="div4">
+                    </div>
+                    <div class="div5">
+                        <img src="assets/img/Galerie/discord.png" alt="discord" class="galleryImg">
+                        <a href="http://discord.com/" target="_blank">
+                            <p id="discord" class="legendGallery leftDiscord">Discord</p>
+                        </a>
+                    </div>
+                    <div class="div6">
+                    </div>
+                    <div class="div7">
+                        <p id="titleGalTwo" class="titleGallery">Outils de création sous Wordpress</p>
+                    </div>
+                    <div class="div8">
+                    </div>
+                    <div class="div9">
+                        <img src="assets/img/Galerie/elementor.png" alt="Elementor" class="galleryImg">
+                        <a href="http://www.elementor.com/" target="_blank">
+                            <p id="elementor" class="legendGallery">Elementor</p>
+                        </a>
+                    </div>
+                    <div class="div10">
+                    </div>
+                    <div class="div11">
+                        <img src="assets/img/Galerie/divi.png" alt="Divi" class="galleryImg">
+                        <a href="https://www.elegantthemes.com/gallery/divi/" target="_blank">
+                            <p id="divi" class="legendGallery leftDivi">Divi</p>
+                        </a>
+                    </div>
+                    <div class="div12">
+                    </div>
+                    <div class="div13">
+                        <p id="titleGalThree" class="titleGallery">Outils de création graphique</p>
+                    </div>
+                    <div class="div14">
+                        <img src="assets/img/Galerie/canva.png" alt="Canva" class="galleryImg">
+                        <a href="http://www.canva.com/" target="_blank">
+                            <p id="canva" class="legendGallery">Canva</p>
+                        </a>
+                    </div>
+                    <div class="div15">
+                        <img src="assets/img/Galerie/indesign.png" alt="Adobe InDesign" class="galleryImg">
+                        <a href="https://www.adobe.com/fr/products/indesign.html?gclid=Cj0KCQiArt6PBhCoARIsAMF5wajkotf3OZEKAcOQ0LadAorvB_8WOl1NQMFCAGNxmi6Y-xFTPzIVAl4aAk5NEALw_wcB&mv=search&mv=search&sdid=LCDWTLJX&ef_id=Cj0KCQiArt6PBhCoARIsAMF5wajkotf3OZEKAcOQ0LadAorvB_8WOl1NQMFCAGNxmi6Y-xFTPzIVAl4aAk5NEALw_wcB:G:s&s_kwcid=AL!3085!3!441889281794!e!!g!!indesign!1435912704!58952470471"
+                            target="_blank">
+                            <p id="indesign" class="legendGallery">InDesign</p>
+                        </a>
+                    </div>
+                    <div class="div16">
+                        <img src="assets/img/Galerie/photofiltre.png" alt="Photofiltre" class="galleryImg">
+                        <a href="http://www.photofiltre-studio.com/pf7.htm" target="=_blank">
+                            <p id="photofiltre" class="legendGallery">Photofiltre</p>
+                        </a>
+                    </div>
+                    <div class="div17">
+                        <img src="assets/img/Galerie/photoshop.png" alt="Photoshop" class="galleryImg">
+                        <a href="https://www.adobe.com/fr/products/photoshop/landpb.html?mv=search&mv=search&sdid=LZ32SYVR&ef_id=Cj0KCQiArt6PBhCoARIsAMF5waiiba2uCcwh1K1enli2DhhU6HZkhOIhd0irn4d6bRm3rxCWWvWl4HkaAsNTEALw_wcB:G:s&s_kwcid=AL!3085!3!474049806361!e!!g!!photoshop!1435912275!56537390339&gclid=Cj0KCQiArt6PBhCoARIsAMF5waiiba2uCcwh1K1enli2DhhU6HZkhOIhd0irn4d6bRm3rxCWWvWl4HkaAsNTEALw_wcB"
+                            target="_blank">
+                            <p id="photoshop" class="legendGallery">Photoshop</p>
+                        </a>
+                    </div>
+                    <div class="div18">
+                        <img src="assets/img/Galerie/procreate.png" alt="Procreate" class="galleryImg">
+                        <a href="https://procreate.art/" target="_blank">
+                            <p id="procreate" class="legendGallery">Procreate</p>
+                        </a>
+                    </div>
+                    <div class="div19">
+
+                    </div>
+                    <div class="div20">
+                        <img src="assets/img/Galerie/illustrator.png" alt="Illustrator" class="galleryImg">
+                        <a href="https://www.adobe.com/fr/products/illustrator.html?mv=search&mv=search&sdid=KCJMVLF6&ef_id=Cj0KCQiArt6PBhCoARIsAMF5waiumYVhqvJxv2rYFepG96oXfOWHm1wUPWjU3QgcdK02HZOZ6eRlEuUaAk-EEALw_wcB:G:s&s_kwcid=AL!3085!3!341240860970!e!!g!!illustrator!1478148655!58836721124&gclid=Cj0KCQiArt6PBhCoARIsAMF5waiumYVhqvJxv2rYFepG96oXfOWHm1wUPWjU3QgcdK02HZOZ6eRlEuUaAk-EEALw_wcB"
+                            target="_blank">
+                            <p id="illustrator" class="legendGallery rightIllu">Illustrator</p>
+                        </a>
+                    </div>
+                    <div class="div21">
+
+                    </div>
+                    <div class="div22">
+                        <img src="assets/img/Galerie/xD.png" alt="XD" class="galleryImg">
+                        <a href="https://www.adobe.com/fr/products/xd.html" target="_blank">
+                            <p id="xd" class="legendGallery leftXD">XD</p>
+                        </a>
+                    </div>
+                    <div class="div23">
+
+                    </div>
+                </div>
+            </section>
+
+            <!-- ENGAGEMENTS -->
+            <section id="engagements" class="engagementssection">
+                <div class="parentEngagementCards">
+                    <div class="enfantEngagementCard oneCard">
+                        <img class="enfantCardImg" src="assets/img/Icons8/icons8-designer.gif">
+                        <h3 id="engageTitleOne" class="enfantCardTitle">Design de site Web</h3>
+                        <p class="enfantCardTxt">Choix des couleurs, choix du thème, choix de la disposition des éléments… Tellement de choses qui permettent de rendre un site magnifique en plus d'être simple d'utilisation.
+                        </p>
+                    </div>
+                    <div class="enfantEngagementCard twoCard">
+                        <img class="enfantCardImg" src="assets/img/Icons8/icons8-webdevelopper.gif">
+                        <h3 id="engageTitleTwo" class="enfantCardTitle">Développement Web</h3>
+                        <p class="enfantCardTxt">Toujours au courant des dernières nouveautés & mises à jour, commentaires dans le codage pour permettre une facilité de lecture dans ce qui est codé et un potentiel à chaque fois, inégalé.
+                        </p>
+                    </div>
+                    <div class="enfantEngagementCard threeCard">
+                        <img class="enfantCardImg" src="assets/img/Icons8/icons8-marketing.gif">
+                        <h3 id="engageTitleThree" class="enfantCardTitle">Marketing</h3>
+                        <p class="enfantCardTxt">Vendre un service irréprochable et qui répond aux attentes du client tout en étant transparent sur tout le processus de développement. Permettre une communication entre le client et ses utilisateurs.</p>
+                    </div>
+                </div>
+            </section>
+
+            <!-- EXPERIENCE -->
+            <section id="experience" class="experiencesection">
+                <h2 id="titleSectExperience">Expériences professionnelles & formations</h2>
+                <section class="timeline">
+                    <ul>
+                        <li id="formOne" class="formation">
+                            <div id="contentFormOne" class="expepro">
+                                <time>2021 - 2022</time>
+                                <h3 class="contentFormationTitle" id="titleFormationOne">Concepteur Design UI</h3>
+                                <i class="fas fa-angle-down fa-formation" id="toggleOne"></i>
+                                <section class="contentExperience" id="contentXPOne">
+                                    <section class="parentContentImg">
+                                        <img src="assets/img/Experience/LaManu.png" alt="Logo La Manu" class="contentXPImg" />
+                                    </section>
+                                    <p id="locationXPOne" class="contentFormationLocation">"La Manu", à Noyon</p>
+                                    <p class="contentTxt">Formation équivalente à un bac+3 dans le domaine du numérique d'une durée de 8 mois.</p>
+                                </section>
+                            </div>
+                        </li>
+                        <li id="workOne" class="work">
+                            <div class="expepro">
+                                <time>2021</time>
+                                <h3 class="contentWorkTitle" id="titleWorkOne">Assistante Secrétariat</h3>
+                                <i class="fas fa-angle-down fa-work" id="toggleTwo"></i>
+                                <section class="contentExperience" id="contentXPTwo">
+                                    <section class="parentContentImg">
+                                        <img src="assets/img/Experience/MairieCarlepont.png" alt="Logo Mairie de Carlepont" class="contentXPImg" />
+                                    </section>
+                                    <p id="locationXPTwo" class="contentWorkLocation">"Mairie de Carlepont", à Carlepont</p>
+                                    <p class="contentTxt">Stage d'une durée de 8 semaines pour la formation "Dynamique vers l'Emploi".
+                                    </p>
+                                </section>
+                            </div>
+                        </li>
+                        <li id="formTwo" class="formation">
+                            <div>
+                                <time>2020 - 2021</time>
+                                <h3 id="titleFormationTwo" class="contentFormationTitle">Dynamique vers l'Emploi</h3>
+                                <i class="fas fa-angle-down fa-formation" id="toggleThree"></i>
+                                <section class="contentExperience" id="contentXPThree">
+                                    <section class="parentContentImg">
+                                        <img src="assets/img/Experience/SJT.png" alt="Logo SJT" class="contentXPImg" />
+                                    </section>
+                                    <p id="locationXPThree" class="contentFormationLocation">"SJT", à Noyon</p>
+                                    <p class="contentTxt">Formation permettant une remise à niveau et une aide pour le choix dans la voie professionnelle d'une durée de 7 mois.</p>
+                                </section>
+                            </div>
+                        </li>
+                        <li id="workTwo" class="work">
+                            <div>
+                                <time>2020</time>
+                                <h3 class="contentWorkTitle" id="titleWorkTwo">Ouvrière Polyvalente</h3>
+                                <i class="fas fa-angle-down fa-work" id="toggleFour"></i>
+                                <section class="contentExperience" id="contentXPFour">
+                                    <section class="parentContentImg">
+                                        <img src="assets/img/Experience/RecyclerieDuNoyonnais.png" alt="Logo Recylerie du Noyonnais" class="contentXPImg" />
+                                    </section>
+                                    <p id="locationXPFour" class="contentWorkLocation">"Recyclerie du Noyonnais", à Noyon</p>
+                                    <p class="contentTxt">Emploi en CUI d'une durée de 2 semaines.</p>
+                                </section>
+                            </div>
+                        </li>
+                        <li id="workThree" class="work">
+                            <div>
+                                <time>2020</time>
+                                <h3 class="contentWorkTitle" id="titleWorkThree">Conseillère de Vente</h3>
+                                <i class="fas fa-angle-down fa-work" id="toggleFive"></i>
+                                <section class="contentExperience" id="contentXPFive">
+                                    <section class="parentContentImg">
+                                        <img src="assets/img/Experience/Auchan.png" alt="Logo Auchan" class="contentXPImg" />
+                                    </section>
+                                    <p id="locationXPFive" class="contentWorkLocation">"Auchan", à Noyon</p>
+                                    <p class="contentTxt">Emploi en CDD de 2 semaines et 2 jours, au stand Boulangerie-Pâtisserie puis au stand Snacking.</p>
+                                </section>
+                            </div>
+                        </li>
+                        <li id="workFour" class="work">
+                            <div>
+                                <time>2019</time>
+                                <h3 class="contentWorkTitle" id="titleWorkFour">Assistante Secrétariat</h3>
+                                <i class="fas fa-angle-down fa-work" id="toggleSix"></i>
+                                <section class="contentExperience" id="contentXPSix">
+                                    <section class="parentContentImg">
+                                        <img src="assets/img/Experience/MairieCarlepont.png" alt="Logo Mairie de Carlepont" class="contentXPImg" />
+                                    </section>
+                                    <p id="locationXPSix" class="contentWorkLocation">"Mairie de Carlepont", à Carlepont</p>
+                                    <p class="contentTxt">Mission bénévole d'une durée de 2 semaines dans le cadre du "Pass Permis Citoyen".</p>
+                                </section>
+                            </div>
+                        </li>
+                        <li id="formThree" class="formation">
+                            <div>
+                                <time>2018</time>
+                                <h3 id="titleFormationThree" class="contentFormationTitle">Baccalauréat Économique & Social</h3>
+                                <i class="fas fa-angle-down fa-formation" id="toggleSeven"></i>
+                                <section class="contentExperience" id="contentXPSeven">
+                                    <section class="parentContentImg">
+                                        <img src="assets/img/Experience/LyceeJeanCalvin.png" alt="Logo Lycée Jean Calvin" class="contentXPImg" />
+                                    </section>
+                                    <p id="locationXPSeven" class="contentFormationLocation">"Lycée Jean Calvin", à Noyon</p>
+                                    <p class="contentTxt">Diplôme obtenu après 3 ans d'étude.</p>
+                                </section>
+                            </div>
+                        </li>
+                        <li id="formFour" class="formation">
+                            <div>
+                                <time>2015</time>
+                                <h3 id="titleFormationFour" class="contentFormationTitle">Brevet des Collèges</h3>
+                                <i class="fas fa-angle-down fa-formation" id="toggleEight"></i>
+                                <section class="contentExperience" id="contentXPEight">
+                                    <section class="parentContentImg">
+                                        <img src="assets/img/Experience/CollegePaulEluard.png" alt="Logo Collège Paul Eluard" class="contentXPImg" />
+                                    </section>
+                                    <p id="locationXPEight" class="contentFormationLocation">"Collège Paul Eluard", à Noyon</p>
+                                    <p class="contentTxt">Diplôme obtenu après 5 ans d'étude.</p>
+                                </section>
+                            </div>
+                        </li>
+                        <li id="workFive" class="work">
+                            <div>
+                                <time>2015</time>
+                                <h3 class="contentWorkTitle" id="titleWorkFive">Assistante Garde-Champêtre</h3>
+                                <i class="fas fa-angle-down fa-work" id="toggleNine"></i>
+                                <section class="contentExperience" id="contentXPNine">
+                                    <section class="parentContentImg">
+                                        <img src="assets/img/Experience/PoliceRurale.png" alt="Logo Police Rurale" class="contentXPImg" />
+                                    </section>
+                                    <p id="locationXPNine" class="contentWorkLocation">"Police Rurale", à Carlepont</p>
+                                    <p class="contentTxt">Stage d'une durée de 1 semaine pour trouver sa voie au collège.</p>
+                                </section>
+                            </div>
+                        </li>
+
+                    </ul>
+                </section>
+            </section>
+
+            <!-- PORTFOLIO -->
+            <section id="portfolio" class="portfoliosection">
+                <div class="parentPortfolioTitle">
+                    <h2 id="titleSectPortfolio">Portfolio</h2>
+                </div>
+                <div id="portfolioMAJ">
+                    <p id="txtMAJ">Dernière mise à jour le :</p>
+                    <span id="importantMAJ">4 Février 2022</span>
+                </div>
+                <!-- VERSION CARDS -->
+                <section id="pcportfolio">
+                    <div id="selectionPages">
+                        <div class="choicesPages">
+                            <p class="choicesPages">Sélectionner la page que vous voulez voir</p>
+                        </div>
+                        <div class="choicesSelection">
+                            <p id="choicePageOne">1</p>
+                            <p id="choicePageTwo">2</p>
+                        </div>
+                    </div>
+                    <section id="selectionOnePage">
+                        <div class="parentPortfolioCards">
+                            <div class="enfantPortfolioCards">
+
+                                <section class="cardPortfolio" id="elementOne">
+                                    <div class="cardPortfolioImg">
+                                        <img src="assets/img/Portfolio/Card-ArietteDeschampsPhotographie.png" />
+                                    </div>
+                                    <div class="cardPortfolioContent">
+                                        <h3 id="ariette" class="cardContentTitle">Ariette Deschamps</h3>
+                                        <p class="cardContentTxt">
+                                            Site réalisé en Octobre 2021 durant la formation Concepteur Design UI en collaboration avec Harmonie Brousse, Laurence Senilhe, Corentin Leclercq.
+                                        </p>
+                                    </div>
+                                    <div class="contentButton" id="contentButtonAriette">
+                                        <p>
+                                            <a href="ariette-deschamps-photographie.html" target="_blank">Accéder au projet</a>
+                                        </p>
+                                    </div>
+                                </section>
+
+                                <section class="cardPortfolio" id="elementTwo">
+                                    <div class="cardPortfolioImg">
+                                        <img src="assets/img/Portfolio/Card-LesJouetsDubois.png" />
+                                    </div>
+                                    <div class="cardPortfolioContent">
+                                        <h3 id="dubois" class="cardContentTitle">Les Jouets Dubois</h3>
+                                        <p class="cardContentTxt">
+                                            Site réalisé en Novembre 2021 durant la formation Concepteur Design UI en collaboration avec Sébastien Soussay, Ghislaine Hammada, Corentin Leclercq.
+                                        </p>
+                                    </div>
+                                    <div class="contentButton" id="contentButtonDubois">
+                                        <p>
+                                            <a href="les-jouets-dubois.html" target="_blank">Accéder au projet</a>
+                                        </p>
+                                    </div>
+                                </section>
+
+                                <section class="cardPortfolio" id="elementThree">
+                                    <div class="cardPortfolioImg">
+                                        <img src="assets/img/Portfolio/Card-Hi-Ha-Mizu-Pokemon.png" />
+                                    </div>
+                                    <div class="cardPortfolioContent">
+                                        <h3 id="hihamizu" class="cardContentTitle">Hi-Ha-Mizu</h3>
+                                        <p class="cardContentTxt">
+                                            Site réalisé en Décembre 2021 durant la formation Concepteur Design UI en collaboration avec Ghislaine Hammada, Harmonie Brousse, Julien Lorren.
+                                        </p>
+                                    </div>
+                                    <div class="contentButton" id="contentButtonHihamizu">
+                                        <p>
+                                            <a href="hi-ha-mizu.html" target="_blank">Accéder au projet</a>
+                                        </p>
+                                    </div>
+                                </section>
+                            </div>
+                        </div>
+
+                        <div class="parentPortfolioCards">
+                            <div class="enfantPortfolioCards">
+
+                                <section class="cardPortfolio" id="elementFour">
+                                    <div class="cardPortfolioImg">
+                                        <img src="assets/img/Portfolio/Card-calendrierStarWars.png" />
+                                    </div>
+                                    <div class="cardPortfolioContentnotshort">
+                                        <h3 id="starwars" class="cardContentTitlenotshort">Calendrier de l'Avent <br>Star Wars</h3>
+                                        <p class="cardContentTxt">
+                                            Site réalisé en Décembre 2021 durant la formation Concepteur Design UI en collaboration avec Harmonie Brousse.
+                                        </p>
+                                    </div>
+                                    <div class="contentButton" id="contentButtonStarwars">
+                                        <p>
+                                            <a href="calendrier-star-wars.html" target="_blank">Accéder au projet</a>
+                                        </p>
+                                    </div>
+                                </section>
+
+                                <section class="cardPortfolio" id="elementFive">
+                                    <div class="cardPortfolioImg">
+                                        <img src="assets/img/Portfolio/Card-TheAtticGames.png" />
+                                    </div>
+                                    <div class="cardPortfolioContent">
+                                        <h3 id="tag" class="cardContentTitle">The Attic Games</h3>
+                                        <p class="cardContentTxt">
+                                            Site réalisé seule en Janvier 2022 durant la formation Concepteur Design UI sous la contrainte de Wordpress sans builder.
+                                        </p>
+                                    </div>
+                                    <div class="contentButton" id="contentButtonTAG">
+                                        <p>
+                                            <a href="the-attic-games.html" target="_blank">Accéder au projet</a>
+                                        </p>
+                                    </div>
+                                </section>
+
+                                <section class="cardPortfolio" id="elementSix">
+                                    <div class="cardPortfolioImg">
+                                        <img src="assets/img/Portfolio/Card-HellyToon.png" />
+                                    </div>
+                                    <div class="cardPortfolioContent">
+                                        <h3 id="hellytoon" class="cardContentTitle">Hellytoon</h3>
+                                        <p class="cardContentTxt">
+                                            Site réalisé seule en Janvier 2022 durant la formation Concepteur Design UI sous la contrainte de Wordpress avec Elementor.
+                                        </p>
+                                    </div>
+                                    <div class="contentButton" id="contentButtonHT">
+                                        <p>
+                                            <a href="hellytoon.html" target="_blank">Accéder au projet</a>
+                                        </p>
+                                    </div>
+                                </section>
+                            </div>
+                        </div>
+                    </section>
+
+                    <section id="selectionTwoPage">
+                        <div class="parentPortfolioCards">
+                            <div class="enfantPortfolioCards">
+
+                                <section class="cardPortfolio" id="elementSeven">
+                                    <div class="cardPortfolioImg">
+                                        <img class="imgComing" id="imgcomingThree" src="assets/img/Portfolio/IsComingLight.png" />
+                                    </div>
+                                    <div class="cardPortfolioContent">
+                                        <h3 id="tocomeThree" class="cardContentTitle">A venir...</h3>
+                                        <p class="cardContentTxt">
+                                            Création à venir… <br>N'hésitez pas à me contacter si vous aimeriez voir de quoi je suis capable… <br>Mon mail est en haut.
+                                        </p>
+                                    </div>
+                                    <div class="contentButtonDisabled" id="contentButtonDisabledThree">
+                                        <p>
+                                            <a href="" disabled>Prochainement</a>
+                                        </p>
+                                    </div>
+                                </section>
+
+                                <section class="cardPortfolio" id="elementEight">
+                                    <div class="cardPortfolioImg">
+                                        <img class="imgComing" id="imgcomingFour" src="assets/img/Portfolio/IsComingLight.png" />
+                                    </div>
+                                    <div class="cardPortfolioContent">
+                                        <h3 id="tocomeFour" class="cardContentTitle">A venir...</h3>
+                                        <p class="cardContentTxt">
+                                            Création à venir… <br>N'hésitez pas à me contacter si vous aimeriez voir de quoi je suis capable… <br>Mon mail est en haut.
+                                        </p>
+                                    </div>
+                                    <div class="contentButtonDisabled" id="contentButtonDisabledFour">
+                                        <p>
+                                            <a href="" disabled>Prochainement</a>
+                                        </p>
+                                    </div>
+                                </section>
+
+                                <section class="cardPortfolio" id="elementNine">
+                                    <div class="cardPortfolioImg">
+                                        <img class="imgComing" id="imgcomingFive" src="assets/img/Portfolio/IsComingLight.png" />
+                                    </div>
+                                    <div class="cardPortfolioContent">
+                                        <h3 id="tocomeFive" class="cardContentTitle">A venir...</h3>
+                                        <p class="cardContentTxt">
+                                            Création à venir… <br>N'hésitez pas à me contacter si vous aimeriez voir de quoi je suis capable… <br>Mon mail est en haut.
+                                        </p>
+                                    </div>
+                                    <div class="contentButtonDisabled" id="contentButtonDisabledFive">
+                                        <p>
+                                            <a href="" disabled>Prochainement</a>
+                                        </p>
+                                    </div>
+                                </section>
+                            </div>
+                        </div>
+
+                        <div class="parentPortfolioCards">
+                            <div class="enfantPortfolioCards">
+
+                                <section class="cardPortfolio" id="elementTen">
+                                    <div class="cardPortfolioImg">
+                                        <img class="imgComing" id="imgcomingSix" src="assets/img/Portfolio/IsComingLight.png" />
+                                    </div>
+                                    <div class="cardPortfolioContent">
+                                        <h3 id="tocomeSix" class="cardContentTitle">A venir...</h3>
+                                        <p class="cardContentTxt">
+                                            Création à venir… <br>N'hésitez pas à me contacter si vous aimeriez voir de quoi je suis capable… <br>Mon mail est en haut.
+                                        </p>
+                                    </div>
+                                    <div class="contentButtonDisabled" id="contentButtonDisabledSix">
+                                        <p>
+                                            <a href="" disabled>Prochainement</a>
+                                        </p>
+                                    </div>
+                                </section>
+
+                                <section class="cardPortfolio" id="elementEleven">
+                                    <div class="cardPortfolioImg">
+                                        <img class="imgComing" id="imgcomingSeven" src="assets/img/Portfolio/IsComingLight.png" />
+                                    </div>
+                                    <div class="cardPortfolioContent">
+                                        <h3 id="tocomeSeven" class="cardContentTitle">A venir...</h3>
+                                        <p class="cardContentTxt">
+                                            Création à venir… <br>N'hésitez pas à me contacter si vous aimeriez voir de quoi je suis capable… <br>Mon mail est en haut.
+                                        </p>
+                                    </div>
+                                    <div class="contentButtonDisabled" id="contentButtonDisabledSeven">
+                                        <p>
+                                            <a href="" disabled>Prochainement</a>
+                                        </p>
+                                    </div>
+                                </section>
+
+                                <section class="cardPortfolio" id="elementTwelve">
+                                    <div class="cardPortfolioImg">
+                                        <img class="imgComing" id="imgcomingEight" src="assets/img/Portfolio/IsComingLight.png" />
+                                    </div>
+                                    <div class="cardPortfolioContent">
+                                        <h3 id="tocomeEight" class="cardContentTitle">A venir...</h3>
+                                        <p class="cardContentTxt">
+                                            Création à venir… <br>N'hésitez pas à me contacter si vous aimeriez voir de quoi je suis capable… <br>Mon mail est en haut.
+                                        </p>
+                                    </div>
+                                    <div class="contentButtonDisabled" id="contentButtonDisabledEight">
+                                        <p>
+                                            <a href="" disabled>Prochainement</a>
+                                        </p>
+                                    </div>
+                                </section>
+                            </div>
+                        </div>
+                    </section>
+                </section>
+                <!-- VERSION CONTENEURS -->
+                <section id="mobilePortfolio">
+
+                    <div id="mobileSelectionPages">
+                        <div class="mobileChoicesPages">
+                            <p class="mobileChoicesPages">Sélectionner la page que vous voulez voir</p>
+                        </div>
+                        <div class="mobileChoicesSelection">
+                            <p id="mobileChoicePageOne">1</p>
+                            <p id="mobileChoicePageTwo">2</p>
+                        </div>
+                    </div>
+
+                    <div class="pdiv1 portfolioColor">
+                        <div class="pdivImg">
+                            <img class="mobileImgCards" src="assets/img/Portfolio/Card-ArietteDeschampsPhotographie.png" />
+                        </div>
+                        <div class="pdivContent">
+                            <h3 class="pdivTitle">Ariette Deschamps</h3>
+                            <p class="pdivContent">Site réalisé en Octobre 2021 durant la formation Concepteur Design UI en collaboration avec Harmonie Brousse, Laurence Senilhe, Corentin Leclercq.</p>
+                            <div class="pdivButton" id="pdivAriette">
+                                <p>
+                                    <a href="ariette-deschamps-photographie.html" target="_blank">Accéder au projet</a>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="pdiv2 portfolioColor">
+                        <div class="pdivImg">
+                            <img class="mobileImgCards" src="assets/img/Portfolio/Card-LesJouetsDubois.png" />
+                        </div>
+                        <div class="pdivContent">
+                            <h3 class="pdivTitle">Les Jouets Dubois</h3>
+                            <p class="pdivContent">Site réalisé en Novembre 2021 durant la formation Concepteur Design UI en collaboration avec Sébastien Soussay, Ghislaine Hammada, Corentin Leclercq.</p>
+                            <div class="pdivButton" id="pdivDubois">
+                                <p>
+                                    <a href="les-jouets-dubois.html" target="_blank">Accéder au projet</a>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="pdiv3 portfolioColor">
+                        <div class="pdivImg">
+                            <img class="mobileImgCards" src="assets/img/Portfolio/Card-Hi-Ha-Mizu-Pokemon.png" />
+                        </div>
+                        <div class="pdivContent">
+                            <h3 class="pdivTitle">Hi-Ha-Mizu</h3>
+                            <p class="pdivContent">Site réalisé en Décembre 2021 durant la formation Concepteur Design UI en collaboration avec Ghislaine Hammada, Harmonie Brousse, Julien Lorren.</p>
+                            <div class="pdivButton" id="pdivHihamizu">
+                                <p>
+                                    <a href="hi-ha-mizu.html" target="_blank">Accéder au projet</a>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="pdiv4 portfolioColor">
+                        <div class="pdivImg">
+                            <img class="mobileImgCards" src="assets/img/Portfolio/Card-calendrierStarWars.png" />
+                        </div>
+                        <div class="pdivContent">
+                            <h3 class="pdivTitle">Calendrier de l'Avent Star Wars</h3>
+                            <p class="pdivContent">Site réalisé en Décembre 2021 durant la formation Concepteur Design UI en collaboration avec Harmonie Brousse.</p>
+                            <div class="pdivButton" id="pdivStarwars">
+                                <p>
+                                    <a href="calendrier-star-wars.html" target="_blank">Accéder au projet</a>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="pdiv5 portfolioColor">
+                        <div class="pdivImg">
+                            <img class="mobileImgCards" src="assets/img/Portfolio/Card-TheAtticGames.png" />
+                        </div>
+                        <div class="pdivContent">
+                            <h3 class="pdivTitle">The Attic Games</h3>
+                            <p class="pdivContent">Site réalisé seule en Janvier 2022 durant la formation Concepteur Design UI sous la contrainte de Wordpress sans builder.</p>
+                            <div class="pdivButton" id="pdivTAG">
+                                <p>
+                                    <a href="the-attic-games.html" target="_blank">Accéder au projet</a>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="pdiv6 portfolioColor">
+                        <div class="pdivImg">
+                            <img class="mobileImgCards" src="assets/img/Portfolio/Card-HellyToon.png" />
+                        </div>
+                        <div class="pdivContent">
+                            <h3 class="pdivTitle">Hellytoon</h3>
+                            <p class="pdivContent">Site réalisé seule en Janvier 2022 durant la formation Concepteur Design UI sous la contrainte de Wordpress avec Elementor.</p>
+                            <div class="pdivButton" id="pdivHT">
+                                <p>
+                                    <a href="hellytoon.html" target="_blank">Accéder au projet</a>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+                </section>
+            </section>
+
+            <!-- ROLL UP -->
+            <section id="rollUp">
+                <a href="#backgroundTop" onclick="animateToTop(event)"><i class="fas fa-arrow-circle-up"></i></a>
+            </section>
+
+
+            <!-- FOOTER -->
+            <div id="footerColor">
+                <footer id="footerSection">
+                    <div id="iconsSocial">
+                        <a href="https://www.instagram.com/anasiris_design/" target="_blank"><img src="assets/img/Icons8/icon8-instagram.png" alt="Instagram" class="iconsSizeSocial" /></a>
+                        <a href="https://twitter.com/AnasirisDesign/" target="_blank"><img src="assets/img/Icons8/icon8-twitter.png" alt="Twitter" class="iconsSizeSocial" /></a>
+                        <a href="https://www.linkedin.com/in/audrey-malfoy-5093511b5/" target="_blank"><img src="assets/img/Icons8/icon8-linkedin.png" alt="Linkedin" class="iconsSizeSocial" /></a>
+                        <a href="https://www.facebook.com/anasirisdesign/" target="_blank"><img src="assets/img/Icons8/icon8-facebook.png" alt="Facebook" class="iconsSizeSocial" /></a>
+                    </div>
+                    <div id="txtCopyright">
+                        <p>Copyright © 2021 - 2023</p>
+                    </div>
+                </footer>
+            </div>
+        </section>
+
+        <!-- LINK TO JS -->
+        <script src="assets/js/scripts.js"></script>
+        <!-- LINK TO FONT AWESOME -->
+        <script src="https://kit.fontawesome.com/03eecab157.js" crossorigin="anonymous"></script>
+
+    </body>
+
+</html>

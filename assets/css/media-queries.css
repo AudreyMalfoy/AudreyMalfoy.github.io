@@ -1,0 +1,1506 @@
+/* Small devices (0 to 575.98px) */
+
+@media (min-width: 0px) and (max-width: 575.98px) {
+    #versionNonDispo {
+        display: block;
+    }
+    #versionDispo {
+        display: none;
+    }
+}
+
+
+/* Small devices (landscape phones, 576px and up) */
+
+@media (min-width: 576px) and (max-width: 767.98px) {
+    #versionNonDispo {
+        display: none;
+    }
+    * {
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+    }
+    /* FONT FAMILY
+ 
+font-family: 'Abril Fatface', cursive;
+font-family: 'Montserrat', sans-serif;
+
+*/
+    /* DARK MODE COLOURS */
+    .blueHover {
+        color: #46BCDE;
+    }
+    .fixe {
+        position: fixed;
+        top: 0;
+        width: 100%;
+        background: rgb(255, 255, 255);
+        background: linear-gradient(0deg, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 0.05) 5%, rgba(255, 255, 255, 0.1) 10%, rgba(255, 255, 255, 0.4) 15%, rgba(255, 255, 255, 1) 20%);
+    }
+    .fixe-black {
+        position: fixed;
+        top: 0;
+        width: 100%;
+        background: rgb(0, 0, 0);
+        background: linear-gradient(0deg, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.05) 5%, rgba(0, 0, 0, 0.1) 10%, rgba(0, 0, 0, 0.4) 15%, rgb(0, 0, 0) 20%);
+    }
+    /* SWITCH DAY/NIGHT */
+    #switchonoff label {
+        top: 19%;
+        left: 67%;
+    }
+    /* Autre */
+    #backgroundTop {
+        min-height: 70vh;
+        background-image: url("../img/Logo_Head_Navbar/bg-header.png");
+        background-attachment: fixed;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        text-align: center;
+        color: #fff;
+        padding-top: 185px;
+        padding-bottom: 150px;
+    }
+    #listItems {
+        font-size: 12px;
+    }
+    h1 {
+        font-size: 50px;
+    }
+    h2 {
+        font-size: 20px;
+    }
+    .separatorHeader {
+        margin: 0 150px;
+        border-top: 10px dotted #fff;
+    }
+    .textHeader {
+        font-size: 20px;
+    }
+    /* START CONTENTS & SECTIONS */
+    /* SECTION BIOGRAPHY */
+    #biography {
+        padding: 3% 10%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .parentBioImg {
+        width: 100%;
+        justify-content: center;
+    }
+    .parentBioTxt {
+        width: 100%;
+    }
+    .enfantBioTxt {
+        font-size: 12px;
+    }
+    #bioCoordonnees {
+        display: none;
+    }
+    #bioCoordonnéesMobile {
+        display: block;
+    }
+    .titleCoordonneesMobile {
+        font-size: 15px;
+    }
+    .infoCoordonneesMobile {
+        font-size: 12px;
+    }
+    #bioButton a {
+        margin: 0 150px;
+        margin-top: 15px;
+        padding: 10px;
+        font-size: 12px;
+    }
+    #coordonneesBlocMobile {
+        padding: 3% 0;
+        margin: 0 25%;
+    }
+    /* SECTION SKILLS */
+    #skills {
+        padding: 3% 10%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .parentSkillsTxt {
+        width: 100%;
+    }
+    .parentSkillsBars {
+        width: 100%;
+    }
+    .enfantSkillsTxt {
+        font-size: 12px;
+    }
+    .listSkillsTxt {
+        font-size: 12px;
+        line-height: 15px;
+        text-align: left;
+    }
+    .titleSkills {
+        font-size: 15px;
+        padding: 3% 0;
+    }
+    .containerSkill {
+        width: 70%;
+    }
+    .skill {
+        font-size: 12px;
+        padding-top: 2px;
+        padding-bottom: 2px;
+        padding-right: 10px;
+    }
+    .nameSkill {
+        padding-right: 10px;
+        font-size: 12px;
+    }
+    /* SECTION CAROUSEL */
+    .legends {
+        display: block;
+        padding-top: 180px;
+        font-family: 'Montserrat', sans-serif;
+    }
+    #carousel {
+        padding: 3% 15%;
+    }
+    .caroussel_diapo input {
+        left: -4999.5px;
+    }
+    .contenu_carou {
+        width: 250px;
+        height: 116px;
+        margin: 1rem auto;
+        perspective: 500px;
+    }
+    .caroussel {
+        width: 250px;
+        height: 116px;
+    }
+    .caroussel img:nth-child(1) {
+        transform: translate3d(0, 0, 270px) scale(.8);
+    }
+    .caroussel img:nth-child(2) {
+        transform: rotateY(45deg) translateZ(270px) scale(.8);
+    }
+    .caroussel img:nth-child(3) {
+        transform: rotateY(90deg) translateZ(270px) scale(.8);
+    }
+    .caroussel img:nth-child(4) {
+        transform: rotateY(135deg) translateZ(270px) scale(.8);
+    }
+    .caroussel img:nth-child(5) {
+        transform: rotateY(180deg) translateZ(270px) scale(.8);
+    }
+    .caroussel img:nth-child(6) {
+        transform: rotateY(225deg) translateZ(270px) scale(.8);
+    }
+    .caroussel img:nth-child(7) {
+        transform: rotateY(270deg) translateZ(270px) scale(.8);
+    }
+    .caroussel img:nth-child(8) {
+        transform: rotateY(315deg) translateZ(270px) scale(.8);
+    }
+    .caroussel_diapo input[type=radio]+label {
+        width: 15px;
+        border-radius: 50%;
+        height: 15px;
+    }
+    /*gauche*/
+    .caroussel_diapo #carou_un:checked~.contenu_carou .caroussel {
+        transform: translateZ(-270px);
+    }
+    .caroussel_diapo #carou_deux:checked~.contenu_carou .caroussel {
+        transform: translateZ(-270px) rotateY(-45deg);
+    }
+    .caroussel_diapo #carou_trois:checked~.contenu_carou .caroussel {
+        transform: translateZ(-270px) rotateY(-90deg);
+    }
+    .caroussel_diapo #carou_quatre:checked~.contenu_carou .caroussel {
+        transform: translateZ(-270px) rotateY(-135deg);
+    }
+    .caroussel_diapo #carou_cinq:checked~.contenu_carou .caroussel {
+        transform: translateZ(-270px) rotateY(-180deg);
+    }
+    .caroussel_diapo #carou_six:checked~.contenu_carou .caroussel {
+        transform: translateZ(-270px) rotateY(-225deg);
+    }
+    .caroussel_diapo #carou_sept:checked~.contenu_carou .caroussel {
+        transform: translateZ(-270px) rotateY(-270deg);
+    }
+    .caroussel_diapo #carou_huit:checked~.contenu_carou .caroussel {
+        transform: translateZ(-270px) rotateY(-315deg);
+    }
+    /*droite*/
+    .caroussel_diapo #carou_un:checked~.contenu_carou .caroussel img:nth-child(1) {
+        transform: translateZ(270px) scale(1);
+    }
+    .caroussel_diapo #carou_deux:checked~.contenu_carou .caroussel img:nth-child(2) {
+        transform: rotateY(45deg) translateZ(270px) scale(1);
+    }
+    .caroussel_diapo #carou_trois:checked~.contenu_carou .caroussel img:nth-child(3) {
+        transform: rotateY(90deg) translateZ(270px) scale(1);
+    }
+    .caroussel_diapo #carou_quatre:checked~.contenu_carou .caroussel img:nth-child(4) {
+        transform: rotateY(135deg) translateZ(270px) scale(1);
+    }
+    .caroussel_diapo #carou_cinq:checked~.contenu_carou .caroussel img:nth-child(5) {
+        transform: rotateY(180deg) translateZ(270px) scale(1);
+    }
+    .caroussel_diapo #carou_six:checked~.contenu_carou .caroussel img:nth-child(6) {
+        transform: rotateY(225deg) translateZ(270px) scale(1);
+    }
+    .caroussel_diapo #carou_sept:checked~.contenu_carou .caroussel img:nth-child(7) {
+        transform: rotateY(270deg) translateZ(270px) scale(1);
+    }
+    .caroussel_diapo #carou_huit:checked~.contenu_carou .caroussel img:nth-child(8) {
+        transform: rotateY(315deg) translateZ(270px) scale(1);
+    }
+    /* GALERIE */
+    #gallery {
+        padding: 3% 10%;
+    }
+    .titleGallery {
+        font-size: 20px;
+    }
+    .legendGallery {
+        font-size: 15px;
+    }
+    .rightTrello {
+        padding-right: 18px;
+    }
+    .leftDiscord {
+        padding-left: 8px;
+    }
+    .leftDivi {
+        padding-left: 22px;
+    }
+    .rightIllu {
+        padding-right: 3px;
+    }
+    .leftXD {
+        padding-left: 26px;
+    }
+    .galleryImg {
+        width: 80%;
+    }
+    /* SECTION ENGAGEMENTS */
+    #engagements {
+        padding: 3% 10%;
+    }
+    .enfantEngagementCard {
+        margin: 10% 1%;
+        padding: 2%;
+    }
+    .enfantCardImg {
+        width: 80%
+    }
+    .enfantCardTitle {
+        font-size: 13px;
+    }
+    .enfantCardTxt {
+        font-size: 11px;
+    }
+    /* SECTION EXPERIENCE */
+    #experience {
+        padding: 3% 10%;
+    }
+    time {
+        font-size: 17px;
+    }
+    .contentFormationTitle {
+        font-size: 15px;
+    }
+    .contentWorkTitle {
+        font-size: 15px;
+    }
+    .contentFormationLocation {
+        font-size: 14px;
+    }
+    .contentWorkLocation {
+        font-size: 14px;
+    }
+    .contentTxt {
+        font-size: 12px;
+    }
+    /* PORTFOLIO */
+    #portfolio {
+        padding: 3% 10%;
+    }
+    #portfolioMAJ {
+        margin: 0 100px;
+        font-size: 12px;
+    }
+    #pcportfolio {
+        display: none;
+    }
+    #mobilePortfolio {
+        display: block;
+        padding: 3% 10%;
+    }
+    .pdiv1 {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .pdiv2 {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .pdiv3 {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .pdiv4 {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .pdivButton a {
+        font-size: 12px;
+    }
+    .pdivTitle {
+        font-size: 17px;
+    }
+    .pdivContent {
+        font-size: 12px;
+    }
+    .mobileImgCards {
+        padding-top: 30px;
+        width: 300px;
+        height: 300px;
+    }
+}
+
+
+/* Medium devices (tablets, 768px and up) */
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+    #versionNonDispo {
+        display: none;
+    }
+    * {
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+    }
+    /* FONT FAMILY
+ 
+font-family: 'Abril Fatface', cursive;
+font-family: 'Montserrat', sans-serif;
+
+*/
+    /* DARK MODE COLOURS */
+    .blueHover {
+        color: #46BCDE;
+    }
+    .fixe {
+        position: fixed;
+        top: 0;
+        width: 100%;
+        background: rgb(255, 255, 255);
+        background: linear-gradient(0deg, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 0.05) 5%, rgba(255, 255, 255, 0.1) 10%, rgba(255, 255, 255, 0.4) 15%, rgba(255, 255, 255, 1) 20%);
+    }
+    .fixe-black {
+        position: fixed;
+        top: 0;
+        width: 100%;
+        background: rgb(0, 0, 0);
+        background: linear-gradient(0deg, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.05) 5%, rgba(0, 0, 0, 0.1) 10%, rgba(0, 0, 0, 0.4) 15%, rgb(0, 0, 0) 20%);
+    }
+    /* SWITCH DAY/NIGHT */
+    #switchonoff label {
+        top: 23%;
+        left: 75.5%;
+    }
+    /* Autre */
+    #backgroundTop {
+        min-height: 70vh;
+        background-image: url("../img/Logo_Head_Navbar/bg-header.png");
+        background-attachment: fixed;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        text-align: center;
+        color: #fff;
+        padding-top: 160px;
+        padding-bottom: 150px;
+    }
+    #listItems {
+        font-size: 15px;
+    }
+    h1 {
+        font-size: 60px;
+    }
+    h2 {
+        font-size: 18px;
+    }
+    .separatorHeader {
+        margin: 0 220px;
+        border-top: 10px dotted #fff;
+    }
+    .textHeader {
+        font-size: 25px;
+    }
+    /* START CONTENTS & SECTIONS */
+    /* SECTION BIOGRAPHY */
+    #biography {
+        background-color: transparent;
+        padding: 3% 10%;
+        display: flex;
+    }
+    .enfantBioTxt {
+        font-size: 12px;
+    }
+    #bioCoordonnees {
+        display: none;
+    }
+    #bioCoordonnéesMobile {
+        display: block;
+    }
+    .titleCoordonneesMobile {
+        font-size: 15px;
+    }
+    .infoCoordonneesMobile {
+        font-size: 12px;
+    }
+    #bioButton a {
+        margin: 0 80px;
+        margin-top: 15px;
+        padding: 10px;
+        font-size: 12px;
+    }
+    /* SECTION SKILLS */
+    #skills {
+        padding: 3% 10%;
+    }
+    .enfantSkillsTxt {
+        font-size: 12px;
+    }
+    .listSkillsTxt {
+        font-size: 12px;
+        line-height: 15px;
+        text-align: left;
+    }
+    .titleSkills {
+        font-size: 15px;
+        padding: 3% 0;
+    }
+    .containerSkill {
+        width: 60%;
+    }
+    .skill {
+        font-size: 12px;
+        padding-top: 2px;
+        padding-bottom: 2px;
+        padding-right: 10px;
+    }
+    .nameSkill {
+        padding-right: 10px;
+        font-size: 12px;
+    }
+    /* SECTION CAROUSEL */
+    .legends {
+        display: block;
+        padding-top: 180px;
+        font-family: 'Montserrat', sans-serif;
+    }
+    #carousel {
+        padding: 3% 15%;
+    }
+    .caroussel_diapo input {
+        left: -4999.5px;
+    }
+    .contenu_carou {
+        width: 250px;
+        height: 116px;
+        margin: 1rem auto;
+        perspective: 500px;
+    }
+    .caroussel {
+        width: 250px;
+        height: 116px;
+    }
+    .caroussel img:nth-child(1) {
+        transform: translate3d(0, 0, 270px) scale(.8);
+    }
+    .caroussel img:nth-child(2) {
+        transform: rotateY(45deg) translateZ(270px) scale(.8);
+    }
+    .caroussel img:nth-child(3) {
+        transform: rotateY(90deg) translateZ(270px) scale(.8);
+    }
+    .caroussel img:nth-child(4) {
+        transform: rotateY(135deg) translateZ(270px) scale(.8);
+    }
+    .caroussel img:nth-child(5) {
+        transform: rotateY(180deg) translateZ(270px) scale(.8);
+    }
+    .caroussel img:nth-child(6) {
+        transform: rotateY(225deg) translateZ(270px) scale(.8);
+    }
+    .caroussel img:nth-child(7) {
+        transform: rotateY(270deg) translateZ(270px) scale(.8);
+    }
+    .caroussel img:nth-child(8) {
+        transform: rotateY(315deg) translateZ(270px) scale(.8);
+    }
+    .caroussel_diapo input[type=radio]+label {
+        width: 15px;
+        border-radius: 50%;
+        height: 15px;
+    }
+    /*gauche*/
+    .caroussel_diapo #carou_un:checked~.contenu_carou .caroussel {
+        transform: translateZ(-270px);
+    }
+    .caroussel_diapo #carou_deux:checked~.contenu_carou .caroussel {
+        transform: translateZ(-270px) rotateY(-45deg);
+    }
+    .caroussel_diapo #carou_trois:checked~.contenu_carou .caroussel {
+        transform: translateZ(-270px) rotateY(-90deg);
+    }
+    .caroussel_diapo #carou_quatre:checked~.contenu_carou .caroussel {
+        transform: translateZ(-270px) rotateY(-135deg);
+    }
+    .caroussel_diapo #carou_cinq:checked~.contenu_carou .caroussel {
+        transform: translateZ(-270px) rotateY(-180deg);
+    }
+    .caroussel_diapo #carou_six:checked~.contenu_carou .caroussel {
+        transform: translateZ(-270px) rotateY(-225deg);
+    }
+    .caroussel_diapo #carou_sept:checked~.contenu_carou .caroussel {
+        transform: translateZ(-270px) rotateY(-270deg);
+    }
+    .caroussel_diapo #carou_huit:checked~.contenu_carou .caroussel {
+        transform: translateZ(-270px) rotateY(-315deg);
+    }
+    /*droite*/
+    .caroussel_diapo #carou_un:checked~.contenu_carou .caroussel img:nth-child(1) {
+        transform: translateZ(270px) scale(1);
+    }
+    .caroussel_diapo #carou_deux:checked~.contenu_carou .caroussel img:nth-child(2) {
+        transform: rotateY(45deg) translateZ(270px) scale(1);
+    }
+    .caroussel_diapo #carou_trois:checked~.contenu_carou .caroussel img:nth-child(3) {
+        transform: rotateY(90deg) translateZ(270px) scale(1);
+    }
+    .caroussel_diapo #carou_quatre:checked~.contenu_carou .caroussel img:nth-child(4) {
+        transform: rotateY(135deg) translateZ(270px) scale(1);
+    }
+    .caroussel_diapo #carou_cinq:checked~.contenu_carou .caroussel img:nth-child(5) {
+        transform: rotateY(180deg) translateZ(270px) scale(1);
+    }
+    .caroussel_diapo #carou_six:checked~.contenu_carou .caroussel img:nth-child(6) {
+        transform: rotateY(225deg) translateZ(270px) scale(1);
+    }
+    .caroussel_diapo #carou_sept:checked~.contenu_carou .caroussel img:nth-child(7) {
+        transform: rotateY(270deg) translateZ(270px) scale(1);
+    }
+    .caroussel_diapo #carou_huit:checked~.contenu_carou .caroussel img:nth-child(8) {
+        transform: rotateY(315deg) translateZ(270px) scale(1);
+    }
+    /* GALERIE */
+    #gallery {
+        padding: 3% 10%;
+    }
+    .titleGallery {
+        font-size: 20px;
+    }
+    .legendGallery {
+        font-size: 15px;
+    }
+    .rightTrello {
+        padding-right: 22px;
+    }
+    .leftDiscord {
+        padding-left: 8px;
+    }
+    .leftDivi {
+        padding-left: 22px;
+    }
+    .rightIllu {
+        padding-right: 3px;
+    }
+    .leftXD {
+        padding-left: 25px;
+    }
+    .galleryImg {
+        width: 60%;
+    }
+    /* SECTION ENGAGEMENTS */
+    #engagements {
+        padding: 3% 10%;
+    }
+    .enfantEngagementCard {
+        margin: 10% 2%;
+        padding: 2%;
+    }
+    .enfantCardImg {
+        width: 50%
+    }
+    .enfantCardTitle {
+        font-size: 17px;
+    }
+    .enfantCardTxt {
+        font-size: 12px;
+    }
+    /* SECTION EXPERIENCE */
+    #experience {
+        padding: 3% 10%;
+    }
+    time {
+        font-size: 18px;
+    }
+    .contentFormationTitle {
+        font-size: 16px;
+    }
+    .contentWorkTitle {
+        font-size: 16px;
+    }
+    .contentFormationLocation {
+        font-size: 14px;
+    }
+    .contentWorkLocation {
+        font-size: 14px;
+    }
+    .contentTxt {
+        font-size: 12px;
+    }
+    /* PORTFOLIO */
+    #portfolio {
+        padding: 3% 10%;
+    }
+    #portfolioMAJ {
+        margin: 0 100px;
+    }
+    #pcportfolio {
+        display: none;
+    }
+    #mobilePortfolio {
+        display: block;
+        padding: 3% 10%
+    }
+    .pdivButton a {
+        font-size: 12px;
+    }
+    .pdivTitle {
+        font-size: 15px;
+    }
+    .pdivContent {
+        font-size: 12px;
+    }
+    .mobileImgCards {
+        padding-top: 30px;
+        width: 200px;
+        height: 200px;
+    }
+}
+
+
+/* Large devices (desktops, 992px and up) */
+
+@media (min-width: 992px) and (max-width: 1199.98px) {
+    #versionNonDispo {
+        display: none;
+    }
+    * {
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+    }
+    /* FONT FAMILY
+ 
+font-family: 'Abril Fatface', cursive;
+font-family: 'Montserrat', sans-serif;
+
+*/
+    /* DARK MODE COLOURS */
+    .blueHover {
+        color: #46BCDE;
+    }
+    .fixe {
+        position: fixed;
+        top: 0;
+        width: 100%;
+        background: rgb(255, 255, 255);
+        background: linear-gradient(0deg, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 0.05) 5%, rgba(255, 255, 255, 0.1) 10%, rgba(255, 255, 255, 0.4) 15%, rgba(255, 255, 255, 1) 20%);
+    }
+    .fixe-black {
+        position: fixed;
+        top: 0;
+        width: 100%;
+        background: rgb(0, 0, 0);
+        background: linear-gradient(0deg, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.05) 5%, rgba(0, 0, 0, 0.1) 10%, rgba(0, 0, 0, 0.4) 15%, rgb(0, 0, 0) 20%);
+    }
+    /* SWITCH DAY/NIGHT */
+    #switchonoff label {
+        top: 9%;
+        left: 81.5%;
+    }
+    #listItems {
+        font-size: 20px;
+    }
+    h1 {
+        font-size: 70px;
+    }
+    h2 {
+        font-size: 30px;
+    }
+    .separatorHeader {
+        margin: 0 330px;
+        border-top: 15px dotted #fff;
+    }
+    .textHeader {
+        font-size: 35px;
+    }
+    /* START CONTENTS & SECTIONS */
+    /* SECTION BIOGRAPHY */
+    #biography {
+        background-color: transparent;
+        padding: 3% 10%;
+        display: flex;
+    }
+    .enfantBioTxt {
+        font-size: 14px;
+    }
+    #bioCoordonnees {
+        display: none;
+    }
+    #bioCoordonnéesMobile {
+        display: block;
+    }
+    .titleCoordonneesMobile {
+        font-size: 18px;
+    }
+    .infoCoordonneesMobile {
+        font-size: 14px;
+    }
+    #bioButton a {
+        margin: 0 100px;
+        margin-top: 50px;
+        padding: 10px;
+        font-size: 14px;
+    }
+    /* SECTION SKILLS */
+    #skills {
+        padding: 3% 10%;
+    }
+    .enfantSkillsTxt {
+        font-size: 14px;
+    }
+    .listSkillsTxt {
+        font-size: 14px;
+        line-height: 20px;
+    }
+    .titleSkills {
+        font-size: 18px;
+        padding: 3% 0;
+    }
+    .containerSkill {
+        width: 60%;
+    }
+    .skill {
+        padding-top: 4px;
+        padding-bottom: 4px;
+        padding-right: 10px;
+    }
+    /* SECTION CAROUSEL */
+    .legends {
+        display: block;
+        padding-top: 180px;
+        font-family: 'Montserrat', sans-serif;
+    }
+    #carousel {
+        padding: 3% 15%;
+    }
+    .caroussel_diapo input {
+        left: -4999.5px;
+    }
+    .contenu_carou {
+        width: 250px;
+        height: 116px;
+        margin: 1rem auto;
+        perspective: 500px;
+    }
+    .caroussel {
+        width: 250px;
+        height: 116px;
+    }
+    .caroussel img:nth-child(1) {
+        transform: translate3d(0, 0, 270px) scale(.8);
+    }
+    .caroussel img:nth-child(2) {
+        transform: rotateY(45deg) translateZ(270px) scale(.8);
+    }
+    .caroussel img:nth-child(3) {
+        transform: rotateY(90deg) translateZ(270px) scale(.8);
+    }
+    .caroussel img:nth-child(4) {
+        transform: rotateY(135deg) translateZ(270px) scale(.8);
+    }
+    .caroussel img:nth-child(5) {
+        transform: rotateY(180deg) translateZ(270px) scale(.8);
+    }
+    .caroussel img:nth-child(6) {
+        transform: rotateY(225deg) translateZ(270px) scale(.8);
+    }
+    .caroussel img:nth-child(7) {
+        transform: rotateY(270deg) translateZ(270px) scale(.8);
+    }
+    .caroussel img:nth-child(8) {
+        transform: rotateY(315deg) translateZ(270px) scale(.8);
+    }
+    .caroussel_diapo input[type=radio]+label {
+        width: 15px;
+        border-radius: 50%;
+        height: 15px;
+    }
+    /*gauche*/
+    .caroussel_diapo #carou_un:checked~.contenu_carou .caroussel {
+        transform: translateZ(-270px);
+    }
+    .caroussel_diapo #carou_deux:checked~.contenu_carou .caroussel {
+        transform: translateZ(-270px) rotateY(-45deg);
+    }
+    .caroussel_diapo #carou_trois:checked~.contenu_carou .caroussel {
+        transform: translateZ(-270px) rotateY(-90deg);
+    }
+    .caroussel_diapo #carou_quatre:checked~.contenu_carou .caroussel {
+        transform: translateZ(-270px) rotateY(-135deg);
+    }
+    .caroussel_diapo #carou_cinq:checked~.contenu_carou .caroussel {
+        transform: translateZ(-270px) rotateY(-180deg);
+    }
+    .caroussel_diapo #carou_six:checked~.contenu_carou .caroussel {
+        transform: translateZ(-270px) rotateY(-225deg);
+    }
+    .caroussel_diapo #carou_sept:checked~.contenu_carou .caroussel {
+        transform: translateZ(-270px) rotateY(-270deg);
+    }
+    .caroussel_diapo #carou_huit:checked~.contenu_carou .caroussel {
+        transform: translateZ(-270px) rotateY(-315deg);
+    }
+    /*droite*/
+    .caroussel_diapo #carou_un:checked~.contenu_carou .caroussel img:nth-child(1) {
+        transform: translateZ(270px) scale(1);
+    }
+    .caroussel_diapo #carou_deux:checked~.contenu_carou .caroussel img:nth-child(2) {
+        transform: rotateY(45deg) translateZ(270px) scale(1);
+    }
+    .caroussel_diapo #carou_trois:checked~.contenu_carou .caroussel img:nth-child(3) {
+        transform: rotateY(90deg) translateZ(270px) scale(1);
+    }
+    .caroussel_diapo #carou_quatre:checked~.contenu_carou .caroussel img:nth-child(4) {
+        transform: rotateY(135deg) translateZ(270px) scale(1);
+    }
+    .caroussel_diapo #carou_cinq:checked~.contenu_carou .caroussel img:nth-child(5) {
+        transform: rotateY(180deg) translateZ(270px) scale(1);
+    }
+    .caroussel_diapo #carou_six:checked~.contenu_carou .caroussel img:nth-child(6) {
+        transform: rotateY(225deg) translateZ(270px) scale(1);
+    }
+    .caroussel_diapo #carou_sept:checked~.contenu_carou .caroussel img:nth-child(7) {
+        transform: rotateY(270deg) translateZ(270px) scale(1);
+    }
+    .caroussel_diapo #carou_huit:checked~.contenu_carou .caroussel img:nth-child(8) {
+        transform: rotateY(315deg) translateZ(270px) scale(1);
+    }
+    /* GALERIE */
+    #gallery {
+        padding: 3% 15%;
+    }
+    .titleGallery {
+        font-size: 20px;
+    }
+    .legendGallery {
+        font-size: 15px;
+    }
+    .rightTrello {
+        padding-right: 22px;
+    }
+    .leftDiscord {
+        padding-left: 12px;
+    }
+    .leftDivi {
+        padding-left: 27px;
+    }
+    .rightIllu {
+        padding-right: 3px;
+    }
+    .leftXD {
+        padding-left: 30px;
+    }
+    .galleryImg {
+        width: 60%;
+    }
+    /* SECTION ENGAGEMENTS */
+    #engagements {
+        padding: 3% 10%;
+    }
+    .enfantEngagementCard {
+        margin: 10% 1%;
+        padding: 2%;
+    }
+    .enfantCardImg {
+        width: 70%
+    }
+    .enfantCardTitle {
+        font-size: 18px;
+    }
+    .enfantCardTxt {
+        font-size: 13px;
+    }
+    /* SECTION EXPERIENCE */
+    #experience {
+        padding: 3% 10%;
+    }
+    time {
+        font-size: 19px;
+    }
+    .contentFormationTitle {
+        font-size: 17px;
+    }
+    .contentWorkTitle {
+        font-size: 17px;
+    }
+    .contentFormationLocation {
+        font-size: 14px;
+    }
+    .contentWorkLocation {
+        font-size: 14px;
+    }
+    /* PORTFOLIO */
+    #portfolio {
+        padding: 3% 10%;
+    }
+    #portfolioMAJ {
+        margin: 0 100px;
+    }
+    #pcportfolio {
+        display: none;
+    }
+    #mobilePortfolio {
+        display: block;
+    }
+    .pdivButton a {
+        font-size: 14px;
+    }
+    .pdivTitle {
+        font-size: 19px;
+    }
+    .pdivContent {
+        font-size: 14px;
+    }
+    .mobileImgCards {
+        width: 250px;
+        height: 250px;
+    }
+}
+
+
+/* X-Large devices (large desktops, 1200px and up) */
+
+@media (min-width: 1200px) and (max-width: 1399.98px) {
+    #versionNonDispo {
+        display: none;
+    }
+    * {
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+    }
+    /* FONT FAMILY
+     
+    font-family: 'Abril Fatface', cursive;
+    font-family: 'Montserrat', sans-serif;
+    
+    */
+    /* DARK MODE COLOURS */
+    .blueHover {
+        color: #46BCDE;
+    }
+    .fixe {
+        position: fixed;
+        top: 0;
+        width: 100%;
+        background: rgb(255, 255, 255);
+        background: linear-gradient(0deg, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 0.05) 5%, rgba(255, 255, 255, 0.1) 10%, rgba(255, 255, 255, 0.4) 15%, rgba(255, 255, 255, 1) 20%);
+    }
+    .fixe-black {
+        position: fixed;
+        top: 0;
+        width: 100%;
+        background: rgb(0, 0, 0);
+        background: linear-gradient(0deg, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.05) 5%, rgba(0, 0, 0, 0.1) 10%, rgba(0, 0, 0, 0.4) 15%, rgb(0, 0, 0) 20%);
+    }
+    /* SWITCH DAY/NIGHT */
+    #switchonoff label {
+        display: block;
+        position: absolute;
+        top: 9%;
+        right: 0;
+        left: 84.3%;
+        width: 116px;
+        height: 56px;
+        margin: 0 auto;
+        background-color: #87CEEB;
+        border-radius: 56px;
+        transform: translateY(-50%);
+        cursor: pointer;
+        transition: 0.3s ease background-color;
+        overflow: hidden;
+    }
+    #listItems {
+        font-size: 20px;
+    }
+    h1 {
+        font-size: 90px;
+    }
+    h2 {
+        font-size: 30px;
+    }
+    .separatorHeader {
+        margin: 0 380px;
+    }
+    .textHeader {
+        font-size: 50px;
+    }
+    /* START CONTENTS & SECTIONS */
+    /* SECTION BIOGRAPHY */
+    #biography {
+        background-color: transparent;
+        padding: 3% 15%;
+        display: flex;
+    }
+    .enfantBioTxt {
+        font-size: 14px;
+    }
+    #bioCoordonnees {
+        display: none;
+    }
+    #bioCoordonnéesMobile {
+        display: block;
+    }
+    .titleCoordonneesMobile {
+        font-size: 18px;
+    }
+    .infoCoordonneesMobile {
+        font-size: 14px;
+    }
+    #bioButton a {
+        margin: 0 100px;
+        margin-top: 50px;
+        padding: 10px;
+        font-size: 14px;
+    }
+    /* SECTION SKILLS */
+    #skills {
+        padding: 3% 15%;
+    }
+    .enfantSkillsTxt {
+        font-size: 14px;
+    }
+    .listSkillsTxt {
+        font-size: 14px;
+        line-height: 25px;
+    }
+    .titleSkills {
+        font-size: 18px;
+        padding: 3% 0;
+    }
+    .containerSkill {
+        width: 60%;
+    }
+    .skill {
+        padding-top: 5px;
+        padding-bottom: 5px;
+        padding-right: 10px;
+    }
+    /* SECTION CAROUSEL */
+    .legends {
+        display: block;
+        padding-top: 200px;
+        font-family: 'Montserrat', sans-serif;
+    }
+    #carousel {
+        padding: 3% 15%;
+    }
+    .caroussel_diapo input {
+        left: -4999.5px;
+    }
+    .contenu_carou {
+        width: 250px;
+        height: 116px;
+        margin: 1rem auto;
+        perspective: 500px;
+    }
+    .caroussel {
+        width: 250px;
+        height: 116px;
+    }
+    .caroussel img:nth-child(1) {
+        transform: translate3d(0, 0, 270px) scale(.8);
+    }
+    .caroussel img:nth-child(2) {
+        transform: rotateY(45deg) translateZ(270px) scale(.8);
+    }
+    .caroussel img:nth-child(3) {
+        transform: rotateY(90deg) translateZ(270px) scale(.8);
+    }
+    .caroussel img:nth-child(4) {
+        transform: rotateY(135deg) translateZ(270px) scale(.8);
+    }
+    .caroussel img:nth-child(5) {
+        transform: rotateY(180deg) translateZ(270px) scale(.8);
+    }
+    .caroussel img:nth-child(6) {
+        transform: rotateY(225deg) translateZ(270px) scale(.8);
+    }
+    .caroussel img:nth-child(7) {
+        transform: rotateY(270deg) translateZ(270px) scale(.8);
+    }
+    .caroussel img:nth-child(8) {
+        transform: rotateY(315deg) translateZ(270px) scale(.8);
+    }
+    .caroussel_diapo input[type=radio]+label {
+        width: 15px;
+        border-radius: 50%;
+        height: 15px;
+    }
+    /*gauche*/
+    .caroussel_diapo #carou_un:checked~.contenu_carou .caroussel {
+        transform: translateZ(-270px);
+    }
+    .caroussel_diapo #carou_deux:checked~.contenu_carou .caroussel {
+        transform: translateZ(-270px) rotateY(-45deg);
+    }
+    .caroussel_diapo #carou_trois:checked~.contenu_carou .caroussel {
+        transform: translateZ(-270px) rotateY(-90deg);
+    }
+    .caroussel_diapo #carou_quatre:checked~.contenu_carou .caroussel {
+        transform: translateZ(-270px) rotateY(-135deg);
+    }
+    .caroussel_diapo #carou_cinq:checked~.contenu_carou .caroussel {
+        transform: translateZ(-270px) rotateY(-180deg);
+    }
+    .caroussel_diapo #carou_six:checked~.contenu_carou .caroussel {
+        transform: translateZ(-270px) rotateY(-225deg);
+    }
+    .caroussel_diapo #carou_sept:checked~.contenu_carou .caroussel {
+        transform: translateZ(-270px) rotateY(-270deg);
+    }
+    .caroussel_diapo #carou_huit:checked~.contenu_carou .caroussel {
+        transform: translateZ(-270px) rotateY(-315deg);
+    }
+    /*droite*/
+    .caroussel_diapo #carou_un:checked~.contenu_carou .caroussel img:nth-child(1) {
+        transform: translateZ(270px) scale(1);
+    }
+    .caroussel_diapo #carou_deux:checked~.contenu_carou .caroussel img:nth-child(2) {
+        transform: rotateY(45deg) translateZ(270px) scale(1);
+    }
+    .caroussel_diapo #carou_trois:checked~.contenu_carou .caroussel img:nth-child(3) {
+        transform: rotateY(90deg) translateZ(270px) scale(1);
+    }
+    .caroussel_diapo #carou_quatre:checked~.contenu_carou .caroussel img:nth-child(4) {
+        transform: rotateY(135deg) translateZ(270px) scale(1);
+    }
+    .caroussel_diapo #carou_cinq:checked~.contenu_carou .caroussel img:nth-child(5) {
+        transform: rotateY(180deg) translateZ(270px) scale(1);
+    }
+    .caroussel_diapo #carou_six:checked~.contenu_carou .caroussel img:nth-child(6) {
+        transform: rotateY(225deg) translateZ(270px) scale(1);
+    }
+    .caroussel_diapo #carou_sept:checked~.contenu_carou .caroussel img:nth-child(7) {
+        transform: rotateY(270deg) translateZ(270px) scale(1);
+    }
+    .caroussel_diapo #carou_huit:checked~.contenu_carou .caroussel img:nth-child(8) {
+        transform: rotateY(315deg) translateZ(270px) scale(1);
+    }
+    /* GALERIE */
+    #gallery {
+        padding: 3% 15%;
+    }
+    .titleGallery {
+        font-size: 20px;
+    }
+    .legendGallery {
+        font-size: 15px;
+    }
+    .rightTrello {
+        padding-right: 25px;
+    }
+    .leftDiscord {
+        padding-left: 15px;
+    }
+    .leftDivi {
+        padding-left: 27px;
+    }
+    .rightIllu {
+        padding-right: 3px;
+    }
+    .leftXD {
+        padding-left: 30px;
+    }
+    .galleryImg {
+        width: 50%;
+    }
+    /* SECTION ENGAGEMENTS */
+    #engagements {
+        padding: 3% 15%;
+    }
+    .enfantEngagementCard {
+        margin: 10% 1%;
+        padding: 4%;
+    }
+    .enfantCardImg {
+        width: 70%
+    }
+    .enfantCardTitle {
+        font-size: 20px;
+    }
+    .enfantCardTxt {
+        font-size: 14px;
+    }
+    /* SECTION EXPERIENCE */
+    #experience {
+        padding: 3% 15%;
+    }
+    time {
+        font-size: 19px;
+    }
+    .contentFormationTitle {
+        font-size: 17px;
+    }
+    .contentWorkTitle {
+        font-size: 17px;
+    }
+    .contentFormationLocation {
+        font-size: 14px;
+    }
+    .contentWorkLocation {
+        font-size: 14px;
+    }
+    /* PORTFOLIO */
+    #portfolio {
+        padding: 3% 15%;
+    }
+    #portfolioMAJ {
+        margin: 0 100px;
+    }
+    #pcportfolio {
+        display: none;
+    }
+    #mobilePortfolio {
+        display: block;
+    }
+    .pdivButton a {
+        font-size: 14px;
+    }
+    .pdivTitle {
+        font-size: 19px;
+    }
+    .pdivContent {
+        font-size: 14px;
+    }
+    .mobileImgCards {
+        width: 250px;
+        height: 250px;
+    }
+}
+
+
+/* XX-Large devices (larger desktops, 1400px and up) */
+
+@media (min-width: 1400px) and (max-width: 1799.98px) {
+    #versionNonDispo {
+        display: none;
+    }
+    * {
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+    }
+    /* FONT FAMILY
+     
+    font-family: 'Abril Fatface', cursive;
+    font-family: 'Montserrat', sans-serif;
+    
+    */
+    /* DARK MODE COLOURS */
+    .blueHover {
+        color: #46BCDE;
+    }
+    .fixe {
+        position: fixed;
+        top: 0;
+        width: 100%;
+        background: rgb(255, 255, 255);
+        background: linear-gradient(0deg, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 0.05) 5%, rgba(255, 255, 255, 0.1) 10%, rgba(255, 255, 255, 0.4) 15%, rgba(255, 255, 255, 1) 20%);
+    }
+    .fixe-black {
+        position: fixed;
+        top: 0;
+        width: 100%;
+        background: rgb(0, 0, 0);
+        background: linear-gradient(0deg, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.05) 5%, rgba(0, 0, 0, 0.1) 10%, rgba(0, 0, 0, 0.4) 15%, rgb(0, 0, 0) 20%);
+    }
+    /* SWITCH DAY/NIGHT */
+    #switchonoff label {
+        display: block;
+        position: absolute;
+        top: 9%;
+        right: 0;
+        left: 86.2%;
+        width: 116px;
+        height: 56px;
+        margin: 0 auto;
+        background-color: #87CEEB;
+        border-radius: 56px;
+        transform: translateY(-50%);
+        cursor: pointer;
+        transition: 0.3s ease background-color;
+        overflow: hidden;
+    }
+    #listItems {
+        font-size: 25px;
+    }
+    h1 {
+        font-size: 130px;
+    }
+    h2 {
+        font-size: 40px;
+    }
+    .separatorHeader {
+        margin: 0 420px;
+    }
+    .textHeader {
+        font-size: 60px;
+    }
+    /* START CONTENTS & SECTIONS */
+    /* SECTION BIOGRAPHY */
+    #biography {
+        background-color: transparent;
+        padding: 3% 15%;
+        display: flex;
+    }
+    .enfantBioTxt {
+        font-size: 15px;
+    }
+    #bioCoordonnees {
+        display: none;
+    }
+    #bioCoordonnéesMobile {
+        display: block;
+    }
+    #bioButton a {
+        margin: 0 130px;
+        margin-top: 50px;
+        padding: 10px;
+        font-size: 15px;
+    }
+    /* SECTION SKILLS */
+    #skills {
+        padding: 3% 15%;
+    }
+    .enfantSkillsTxt {
+        font-size: 15px;
+    }
+    .listSkillsTxt {
+        font-size: 15px;
+    }
+    .titleSkills {
+        font-size: 18px;
+        padding: 3% 0;
+    }
+    .containerSkill {
+        width: 70%;
+    }
+    .skill {
+        padding-top: 7px;
+        padding-bottom: 7px;
+        padding-right: 10px;
+    }
+    /* GALERIE */
+    #gallery {
+        padding: 3% 15%;
+    }
+    .titleGallery {
+        font-size: 25px;
+    }
+    .legendGallery {
+        font-size: 18px;
+    }
+    .rightTrello {
+        padding-right: 25px;
+    }
+    .leftDiscord {
+        padding-left: 15px;
+    }
+    .leftDivi {
+        padding-left: 32px;
+    }
+    .rightIllu {
+        padding-right: 3px;
+    }
+    .leftXD {
+        padding-left: 35px;
+    }
+    /* SECTION ENGAGEMENTS */
+    #engagements {
+        padding: 3% 15%;
+    }
+    .enfantEngagementCard {
+        background-color: #fff;
+        margin: 4% 2%;
+        padding: 2%;
+        border: #ddd 3px solid;
+        border-radius: 15px;
+    }
+    /* SECTION EXPERIENCE */
+    #experience {
+        padding: 3% 15%;
+    }
+    time {
+        font-size: 20px;
+    }
+    .contentFormationTitle {
+        font-size: 18px;
+    }
+    .contentWorkTitle {
+        font-size: 18px;
+    }
+    .contentFormationLocation {
+        font-size: 16px;
+    }
+    .contentWorkLocation {
+        font-size: 16px;
+    }
+    /* PORTFOLIO */
+    #portfolio {
+        padding: 3% 15%;
+    }
+    #portfolioMAJ {
+        margin: 0 100px;
+    }
+    #pcportfolio {
+        display: none;
+    }
+    #mobilePortfolio {
+        display: block;
+    }
+    .pdivButton a {
+        font-size: 15px;
+    }
+}
