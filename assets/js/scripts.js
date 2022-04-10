@@ -483,6 +483,11 @@ function myDarkMode() {
         for (var i = 0; i < cardsborderTwo.length; i++) {
             cardsborderTwo[i].style.borderTopColor = '#303030';
         };
+        var cardstwobg = document.getElementsByClassName('portfolioColor');
+        for (var i = 0; i < cardstwobg.length; i++) {
+            cardstwobg[i].style.backgroundColor = '#505050';
+            cardstwobg[i].style.borderColor = '#303030';
+        };
 
         // COULEUR VERTE
         document.getElementById('titleSectAbout').style.color = "#52D273";
@@ -776,6 +781,11 @@ function myDarkMode() {
         var cardsborderTwo = document.getElementsByClassName('cardPortfolioContentnotshort');
         for (var i = 0; i < cardsborderTwo.length; i++) {
             cardsborderTwo[i].style.borderTopColor = '#EEEEEE';
+        };
+        var cardstwobg = document.getElementsByClassName('portfolioColor');
+        for (var i = 0; i < cardstwobg.length; i++) {
+            cardstwobg[i].style.backgroundColor = '#FFFFFF';
+            cardstwobg[i].style.borderColor = '#EEEEEE';
         };
 
         // COULEUR VERTE
